@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.001392] (Open3D) JobQueued: {'identifier': 'Open3D', 'dependencies': OrderedDict()}
+[0.001635] (autonomy_repo) JobQueued: {'identifier': 'autonomy_repo', 'dependencies': OrderedDict()}
+[0.001741] (Open3D) JobStarted: {'identifier': 'Open3D'}
+[0.029003] (autonomy_repo) JobStarted: {'identifier': 'autonomy_repo'}
+[0.046803] (Open3D) JobProgress: {'identifier': 'Open3D', 'progress': 'cmake'}
+[0.047560] (Open3D) Command: {'cmd': ['/opt/cmake/bin/cmake', '/home/xm/autonomy_ws/Open3D', '-DCMAKE_INSTALL_PREFIX=/home/xm/autonomy_ws/install/Open3D'], 'cwd': '/home/xm/autonomy_ws/build/Open3D', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/xm/tb_ws/install/asl_tb3_sim/share'), ('USER', 'xm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xm/tb_ws/install/ros_ign_interfaces/lib:/home/xm/tb_ws/install/ros_gz_sim/lib:/home/xm/tb_ws/install/ros_gz_bridge/lib:/home/xm/tb_ws/install/ros_gz_interfaces/lib:/home/xm/tb_ws/install/asl_tb3_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xm'), ('OLDPWD', '/home/xm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1485'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xm/autonomy_ws/install:/home/xm/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/cmake/bin:/home/xm/miniconda3/bin:/opt/ros/humble/bin:/home/xm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xm:@/tmp/.ICE-unix/1460,unix/xm:/tmp/.ICE-unix/1460'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e02bc06_6b6d_49a5_a30c_5357f6984df2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S8CBX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/xm/tb_ws/install/ros_gz_sim_demos/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xm/autonomy_ws/build/Open3D'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xm/tb_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_examples/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_lib/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver')]), 'shell': False}
+[0.085013] (autonomy_repo) JobProgress: {'identifier': 'autonomy_repo', 'progress': 'cmake'}
+[0.095769] (autonomy_repo) JobProgress: {'identifier': 'autonomy_repo', 'progress': 'build'}
+[0.100292] (autonomy_repo) Command: {'cmd': ['/opt/cmake/bin/cmake', '--build', '/home/xm/autonomy_ws/build/autonomy_repo', '--', '-j4', '-l4'], 'cwd': '/home/xm/autonomy_ws/build/autonomy_repo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/xm/tb_ws/install/asl_tb3_sim/share'), ('USER', 'xm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xm/tb_ws/install/ros_ign_interfaces/lib:/home/xm/tb_ws/install/ros_gz_sim/lib:/home/xm/tb_ws/install/ros_gz_bridge/lib:/home/xm/tb_ws/install/ros_gz_interfaces/lib:/home/xm/tb_ws/install/asl_tb3_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xm'), ('OLDPWD', '/home/xm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1485'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xm/autonomy_ws/install:/home/xm/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/cmake/bin:/home/xm/miniconda3/bin:/opt/ros/humble/bin:/home/xm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xm:@/tmp/.ICE-unix/1460,unix/xm:/tmp/.ICE-unix/1460'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e02bc06_6b6d_49a5_a30c_5357f6984df2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S8CBX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/xm/tb_ws/install/ros_gz_sim_demos/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xm/autonomy_ws/build/autonomy_repo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xm/tb_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_examples/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_lib/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver:/opt/ros/humble')]), 'shell': False}
+[0.102176] (-) TimerEvent: {}
+[0.203562] (-) TimerEvent: {}
+[0.306252] (-) TimerEvent: {}
+[0.344617] (Open3D) StdoutLine: {'line': b'-- Setting build type to RelWithDebInfo as none was specified.\n'}
+[0.345052] (Open3D) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE is set to RelWithDebInfo.\n'}
+[0.350198] (Open3D) StdoutLine: {'line': b'-- OPEN3D_THIRD_PARTY_DOWNLOAD_DIR is not specified, will download directly.\n'}
+[0.350707] (Open3D) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:145 (cmake_policy):\n'}
+[0.350912] (Open3D) StderrLine: {'line': b'  The OLD behavior for policy CMP0072 will be removed from a future version\n'}
+[0.351036] (Open3D) StderrLine: {'line': b'  of CMake.\n'}
+[0.351170] (Open3D) StderrLine: {'line': b'\n'}
+[0.351383] (Open3D) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.351721] (Open3D) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.351899] (Open3D) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.352240] (Open3D) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.352391] (Open3D) StderrLine: {'line': b'\n'}
+[0.352523] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[0.366566] (autonomy_repo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.367243] (autonomy_repo) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.367397] (autonomy_repo) StderrLine: {'line': b'  CMake.\n'}
+[0.367543] (autonomy_repo) StderrLine: {'line': b'\n'}
+[0.367708] (autonomy_repo) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.367944] (autonomy_repo) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.368169] (autonomy_repo) StderrLine: {'line': b'\n'}
+[0.368397] (autonomy_repo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.408914] (-) TimerEvent: {}
+[0.510245] (-) TimerEvent: {}
+[0.576933] (autonomy_repo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.611668] (-) TimerEvent: {}
+[0.713318] (-) TimerEvent: {}
+[0.816372] (-) TimerEvent: {}
+[0.922612] (-) TimerEvent: {}
+[1.025018] (-) TimerEvent: {}
+[1.127450] (-) TimerEvent: {}
+[1.229687] (-) TimerEvent: {}
+[1.332344] (-) TimerEvent: {}
+[1.359915] (Open3D) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.433282] (-) TimerEvent: {}
+[1.458403] (autonomy_repo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.534410] (-) TimerEvent: {}
+[1.635208] (autonomy_repo) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.635558] (-) TimerEvent: {}
+[1.645681] (autonomy_repo) StdoutLine: {'line': b'-- Found asl_tb3_lib: 0.0.0 (/home/xm/tb_ws/install/asl_tb3_lib/share/asl_tb3_lib/cmake)\n'}
+[1.661077] (autonomy_repo) StdoutLine: {'line': b'-- Found asl_tb3_msgs: 0.0.0 (/home/xm/tb_ws/install/asl_tb3_msgs/share/asl_tb3_msgs/cmake)\n'}
+[1.740650] (-) TimerEvent: {}
+[1.845662] (-) TimerEvent: {}
+[1.947978] (-) TimerEvent: {}
+[2.052144] (-) TimerEvent: {}
+[2.116276] (autonomy_repo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.128395] (autonomy_repo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.153183] (-) TimerEvent: {}
+[2.162917] (Open3D) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.189974] (autonomy_repo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.222583] (Open3D) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.256933] (-) TimerEvent: {}
+[2.270913] (autonomy_repo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.347168] (autonomy_repo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.358758] (-) TimerEvent: {}
+[2.459739] (-) TimerEvent: {}
+[2.464571] (Open3D) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.507190] (Open3D) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.508823] (Open3D) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.514004] (Open3D) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.544624] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.561202] (-) TimerEvent: {}
+[2.576138] (autonomy_repo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.661894] (-) TimerEvent: {}
+[2.733437] (autonomy_repo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.758305] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.762151] (-) TimerEvent: {}
+[2.835359] (Open3D) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.836636] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.841485] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.849344] (autonomy_repo) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.863168] (-) TimerEvent: {}
+[2.880175] (Open3D) StdoutLine: {'line': b'-- Open3D 0.13.0+c3f9de224\n'}
+[2.883122] (Open3D) StdoutLine: {'line': b'-- Using python from PATH: PYTHON_IN_PATH-NOTFOUND\n'}
+[2.900037] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_fstack_protector_strong\n'}
+[2.964574] (-) TimerEvent: {}
+[3.066941] (-) TimerEvent: {}
+[3.123510] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_fstack_protector_strong - Success\n'}
+[3.124912] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat\n'}
+[3.167635] (-) TimerEvent: {}
+[3.204543] (autonomy_repo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.224450] (autonomy_repo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.269657] (-) TimerEvent: {}
+[3.334449] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat - Success\n'}
+[3.336149] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat_security\n'}
+[3.370821] (-) TimerEvent: {}
+[3.473507] (-) TimerEvent: {}
+[3.576302] (-) TimerEvent: {}
+[3.610936] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat_security - Success\n'}
+[3.613454] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_noexecstack\n'}
+[3.617971] (autonomy_repo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.677756] (-) TimerEvent: {}
+[3.780211] (-) TimerEvent: {}
+[3.838920] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_noexecstack - Success\n'}
+[3.840538] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_relro__z_now\n'}
+[3.882152] (-) TimerEvent: {}
+[3.984464] (-) TimerEvent: {}
+[4.082081] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_relro__z_now - Success\n'}
+[4.082354] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_pie\n'}
+[4.086236] (-) TimerEvent: {}
+[4.187375] (-) TimerEvent: {}
+[4.291842] (-) TimerEvent: {}
+[4.296853] (autonomy_repo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/local/lib/cmake/Open3D/Open3DConfig.cmake:18 (cmake_policy):\n'}
+[4.297147] (autonomy_repo) StderrLine: {'line': b'  The OLD behavior for policy CMP0072 will be removed from a future version\n'}
+[4.297305] (autonomy_repo) StderrLine: {'line': b'  of CMake.\n'}
+[4.297691] (autonomy_repo) StderrLine: {'line': b'\n'}
+[4.298123] (autonomy_repo) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[4.298276] (autonomy_repo) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[4.298416] (autonomy_repo) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[4.298550] (autonomy_repo) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[4.298694] (autonomy_repo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.298905] (autonomy_repo) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[4.299109] (autonomy_repo) StderrLine: {'line': b'\n'}
+[4.299250] (autonomy_repo) StderrLine: {'line': b'\x1b[0m\n'}
+[4.305479] (autonomy_repo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.327000] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_pie - Success\n'}
+[4.327486] (Open3D) StdoutLine: {'line': b'-- Using security hardening compiler flags: -fstack-protector-strong;-Wformat;-Wformat-security and\n'}
+[4.327639] (Open3D) StdoutLine: {'line': b'linker flags: -Wl,-z,noexecstack;-Wl,-z,relro,-z,now;-pie\n'}
+[4.390757] (Open3D) StdoutLine: {'line': b'-- Performing Test HAS_GLIBCXX_USE_CXX11_ABI\n'}
+[4.393828] (-) TimerEvent: {}
+[4.495667] (-) TimerEvent: {}
+[4.594338] (autonomy_repo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.597749] (-) TimerEvent: {}
+[4.599298] (autonomy_repo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.600980] (autonomy_repo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.607519] (autonomy_repo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.620923] (autonomy_repo) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.688482] (autonomy_repo) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.690281] (autonomy_repo) StdoutLine: {'line': b'-- Build files have been written to: /home/xm/autonomy_ws/build/autonomy_repo\n'}
+[4.698322] (-) TimerEvent: {}
+[4.765905] (autonomy_repo) CommandEnded: {'returncode': 0}
+[4.799264] (-) TimerEvent: {}
+[4.893736] (Open3D) StdoutLine: {'line': b'-- Performing Test HAS_GLIBCXX_USE_CXX11_ABI - Success\n'}
+[4.900586] (-) TimerEvent: {}
+[4.931403] (autonomy_repo) JobProgress: {'identifier': 'autonomy_repo', 'progress': 'install'}
+[4.952748] (autonomy_repo) Command: {'cmd': ['/opt/cmake/bin/cmake', '--install', '/home/xm/autonomy_ws/build/autonomy_repo'], 'cwd': '/home/xm/autonomy_ws/build/autonomy_repo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/xm/tb_ws/install/asl_tb3_sim/share'), ('USER', 'xm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xm/tb_ws/install/ros_ign_interfaces/lib:/home/xm/tb_ws/install/ros_gz_sim/lib:/home/xm/tb_ws/install/ros_gz_bridge/lib:/home/xm/tb_ws/install/ros_gz_interfaces/lib:/home/xm/tb_ws/install/asl_tb3_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xm'), ('OLDPWD', '/home/xm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1485'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xm/autonomy_ws/install:/home/xm/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/cmake/bin:/home/xm/miniconda3/bin:/opt/ros/humble/bin:/home/xm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xm:@/tmp/.ICE-unix/1460,unix/xm:/tmp/.ICE-unix/1460'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e02bc06_6b6d_49a5_a30c_5357f6984df2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S8CBX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/xm/tb_ws/install/ros_gz_sim_demos/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xm/autonomy_ws/build/autonomy_repo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xm/tb_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_examples/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_lib/local/lib/python3.10/dist-packages:/home/xm/tb_ws/install/asl_tb3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xm/autonomy_ws/install/autonomy_repo:/home/xm/tb_ws/install/test_ros_gz_bridge:/home/xm/tb_ws/install/ros_ign_interfaces:/home/xm/tb_ws/install/ros_ign:/home/xm/tb_ws/install/ros_ign_image:/home/xm/tb_ws/install/ros_ign_gazebo_demos:/home/xm/tb_ws/install/ros_ign_gazebo:/home/xm/tb_ws/install/ros_ign_bridge:/home/xm/tb_ws/install/ros_gz:/home/xm/tb_ws/install/ros_gz_sim_demos:/home/xm/tb_ws/install/asl_tb3_sim:/home/xm/tb_ws/install/ros_gz_sim:/home/xm/tb_ws/install/ros_gz_image:/home/xm/tb_ws/install/ros_gz_bridge:/home/xm/tb_ws/install/ros_gz_interfaces:/home/xm/tb_ws/install/asl_tb3_examples:/home/xm/tb_ws/install/asl_tb3_lib:/home/xm/tb_ws/install/asl_tb3_msgs:/home/xm/tb_ws/install/asl_tb3_driver:/opt/ros/humble')]), 'shell': False}
+[4.970059] (Open3D) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.980864] (autonomy_repo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.981475] (autonomy_repo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.981829] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/icp.launch.py\n'}
+[4.983161] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz\n'}
+[4.986323] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/icp_node.py\n'}
+[4.986927] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo\n'}
+[4.993778] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo\n'}
+[4.993993] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh\n'}
+[4.994210] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv\n'}
+[4.994463] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.sh\n'}
+[4.994686] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.dsv\n'}
+[4.994819] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.bash\n'}
+[4.994946] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.sh\n'}
+[4.995070] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.zsh\n'}
+[4.995194] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.dsv\n'}
+[4.995333] (autonomy_repo) StdoutLine: {'line': b'-- Symlinking: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv\n'}
+[5.002556] (-) TimerEvent: {}
+[5.013261] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo\n'}
+[5.014728] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake\n'}
+[5.025302] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake\n'}
+[5.025768] (autonomy_repo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.xml\n'}
+[5.026058] (autonomy_repo) CommandEnded: {'returncode': 0}
+[5.103156] (-) TimerEvent: {}
+[5.107111] (autonomy_repo) JobEnded: {'identifier': 'autonomy_repo', 'rc': 0}
+[5.206787] (-) TimerEvent: {}
+[5.309350] (-) TimerEvent: {}
+[5.355812] (Open3D) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.356467] (Open3D) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[5.357692] (Open3D) StdoutLine: {'line': b'-- Building library Assimp from source\n'}
+[5.409578] (-) TimerEvent: {}
+[5.510247] (-) TimerEvent: {}
+[5.612051] (-) TimerEvent: {}
+[5.713807] (-) TimerEvent: {}
+[5.818781] (-) TimerEvent: {}
+[5.921735] (-) TimerEvent: {}
+[6.023210] (-) TimerEvent: {}
+[6.126472] (-) TimerEvent: {}
+[6.147274] (Open3D) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5")\n'}
+[6.227449] (-) TimerEvent: {}
+[6.329363] (-) TimerEvent: {}
+[6.333005] (Open3D) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5")\n'}
+[6.335890] (Open3D) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")\n'}
+[6.338302] (Open3D) StdoutLine: {'line': b'-- Building with OpenMP\n'}
+[6.430981] (-) TimerEvent: {}
+[6.534650] (-) TimerEvent: {}
+[6.636810] (-) TimerEvent: {}
+[6.740641] (-) TimerEvent: {}
+[6.843640] (-) TimerEvent: {}
+[6.945961] (-) TimerEvent: {}
+[7.046655] (-) TimerEvent: {}
+[7.148686] (-) TimerEvent: {}
+[7.249843] (-) TimerEvent: {}
+[7.350527] (-) TimerEvent: {}
+[7.452729] (-) TimerEvent: {}
+[7.553868] (-) TimerEvent: {}
+[7.655988] (-) TimerEvent: {}
+[7.762666] (-) TimerEvent: {}
+[7.865541] (-) TimerEvent: {}
+[7.972247] (-) TimerEvent: {}
+[8.075445] (-) TimerEvent: {}
+[8.161133] (Open3D) StdoutLine: {'line': b'-- Building library 3rdparty_eigen3 from source\n'}
+[8.161453] (Open3D) StdoutLine: {'line': b'-- Building library 3rdparty_flann from source\n'}
+[8.162367] (Open3D) StdoutLine: {'line': b'-- Building library 3rdparty_nanoflann from source\n'}
+[8.162734] (Open3D) StdoutLine: {'line': b'-- Building library 3rdparty_glew from source\n'}
+[8.163551] (Open3D) StdoutLine: {'line': b'-- Building library 3rdparty_glfw3 from source\n'}
+[8.167174] (Open3D) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at 3rdparty/GLFW/CMakeLists.txt:3 (cmake_minimum_required):\n'}
+[8.167522] (Open3D) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[8.167672] (Open3D) StderrLine: {'line': b'  CMake.\n'}
+[8.167820] (Open3D) StderrLine: {'line': b'\n'}
+[8.167955] (Open3D) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[8.168090] (Open3D) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[8.168222] (Open3D) StderrLine: {'line': b'\n'}
+[8.168354] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[8.176412] (-) TimerEvent: {}
+[8.177066] (Open3D) StdoutLine: {'line': b'-- Found Vulkan: /usr/lib/x86_64-linux-gnu/libvulkan.so\n'}
+[8.177847] (Open3D) StdoutLine: {'line': b'-- Using X11 for window creation\n'}
+[8.277667] (-) TimerEvent: {}
+[8.378957] (-) TimerEvent: {}
+[8.424685] (Open3D) StdoutLine: {'line': b'-- Found X11: /usr/include\n'}
+[8.439306] (Open3D) StdoutLine: {'line': b'-- Building third-party library JPEG from source\n'}
+[8.447382] (Open3D) StdoutLine: {'line': b'-- Looking for a ASM_NASM compiler\n'}
+[8.479932] (-) TimerEvent: {}
+[8.524547] (Open3D) StdoutLine: {'line': b'-- Looking for a ASM_NASM compiler - NOTFOUND\n'}
+[8.525451] (Open3D) StdoutLine: {'line': b'-- NASM assembler not found - libjpeg-turbo performance may suffer\n'}
+[8.525774] (Open3D) StdoutLine: {'line': b'-- libturbojpeg: WITH_CRT_DLL=OFF\n'}
+[8.535497] (Open3D) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/cmake/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake:1323 (message):\n'}
+[8.536652] (Open3D) StderrLine: {'line': b"  No download info given for 'ext_turbojpeg' and its source directory:\n"}
+[8.536856] (Open3D) StderrLine: {'line': b'\n'}
+[8.537069] (Open3D) StderrLine: {'line': b'   /home/xm/autonomy_ws/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo\n'}
+[8.537306] (Open3D) StderrLine: {'line': b'\n'}
+[8.537526] (Open3D) StderrLine: {'line': b'  is not an existing non-empty directory.  Please specify one of:\n'}
+[8.537987] (Open3D) StderrLine: {'line': b'\n'}
+[8.538130] (Open3D) StderrLine: {'line': b'   * SOURCE_DIR with an existing non-empty directory\n'}
+[8.538265] (Open3D) StderrLine: {'line': b'   * DOWNLOAD_COMMAND\n'}
+[8.538597] (Open3D) StderrLine: {'line': b'   * URL\n'}
+[8.538748] (Open3D) StderrLine: {'line': b'   * GIT_REPOSITORY\n'}
+[8.538886] (Open3D) StderrLine: {'line': b'   * SVN_REPOSITORY\n'}
+[8.539020] (Open3D) StderrLine: {'line': b'   * HG_REPOSITORY\n'}
+[8.539152] (Open3D) StderrLine: {'line': b'   * CVS_REPOSITORY and CVS_MODULE\n'}
+[8.539284] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.539417] (Open3D) StderrLine: {'line': b'  /opt/cmake/share/cmake-3.31/Modules/ExternalProject.cmake:3041 (_ep_add_download_command)\n'}
+[8.539550] (Open3D) StderrLine: {'line': b'  3rdparty/libjpeg-turbo/libjpeg-turbo.cmake:54 (ExternalProject_Add)\n'}
+[8.539682] (Open3D) StderrLine: {'line': b'  3rdparty/find_dependencies.cmake:496 (include)\n'}
+[8.539814] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:613 (include)\n'}
+[8.539945] (Open3D) StderrLine: {'line': b'\n'}
+[8.540075] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[8.540206] (Open3D) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.560778] (Open3D) CommandEnded: {'returncode': 1}
+[8.563203] (Open3D) JobEnded: {'identifier': 'Open3D', 'rc': 1}
+[8.575859] (-) EventReactorShutdown: {}

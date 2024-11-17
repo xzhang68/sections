@@ -1,0 +1,142 @@
+[0.915s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.915s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8bc223f700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8bc23cbdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8bc23cbdf0>>, mixin_verb=('build',))
+[2.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.884s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xm/autonomy_ws'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extensions ['ignore', 'ignore_ament_install']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extension 'ignore_ament_install'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extensions ['colcon_pkg']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extension 'colcon_pkg'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extensions ['colcon_meta']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extension 'colcon_meta'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extensions ['ros']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_repo) by extension 'ros'
+[3.007s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_repo' with type 'ros.ament_cmake' and name 'autonomy_repo'
+[3.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.060s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/xm/autonomy_ws/install
+[3.063s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/xm/tb_ws/install
+[3.066s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 305 installed packages in /opt/ros/humble
+[3.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.170s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_args' from command line to 'None'
+[3.171s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_target' from command line to 'None'
+[3.171s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.171s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.172s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_clean_first' from command line to 'False'
+[3.172s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_force_configure' from command line to 'False'
+[3.172s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'ament_cmake_args' from command line to 'None'
+[3.172s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.173s] DEBUG:colcon.colcon_core.verb:Building package 'autonomy_repo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xm/autonomy_ws/build/autonomy_repo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xm/autonomy_ws/install/autonomy_repo', 'merge_install': False, 'path': '/home/xm/autonomy_ws/src/autonomy_repo', 'symlink_install': True, 'test_result_base': None}
+[3.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xm/autonomy_ws/src/autonomy_repo' with build type 'ament_cmake'
+[3.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xm/autonomy_ws/src/autonomy_repo'
+[3.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[3.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[3.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo
+[3.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_repo)
+[3.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo' for CMake module files
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo' for CMake config files
+[3.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_repo', 'cmake_prefix_path')
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.ps1'
+[3.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.dsv'
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.sh'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib'
+[3.764s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/bin'
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib/pkgconfig/autonomy_repo.pc'
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib/python3.10/site-packages'
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/bin'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.ps1'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.sh'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.bash'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.zsh'
+[3.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xm/autonomy_ws/install/autonomy_repo/share/colcon-core/packages/autonomy_repo)
+[3.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_repo)
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo' for CMake module files
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo' for CMake config files
+[4.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_repo', 'cmake_prefix_path')
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.ps1'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.dsv'
+[4.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.sh'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/bin'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib/pkgconfig/autonomy_repo.pc'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/lib/python3.10/site-packages'
+[4.008s] Level 1:colcon.colcon_core.environment:checking '/home/xm/autonomy_ws/install/autonomy_repo/bin'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.sh'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.bash'
+[4.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.zsh'
+[4.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xm/autonomy_ws/install/autonomy_repo/share/colcon-core/packages/autonomy_repo)
+[4.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.020s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.040s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.095s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xm/autonomy_ws/install/local_setup.ps1'
+[4.098s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xm/autonomy_ws/install/_local_setup_util_ps1.py'
+[4.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xm/autonomy_ws/install/setup.ps1'
+[4.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xm/autonomy_ws/install/local_setup.sh'
+[4.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xm/autonomy_ws/install/_local_setup_util_sh.py'
+[4.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xm/autonomy_ws/install/setup.sh'
+[4.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xm/autonomy_ws/install/local_setup.bash'
+[4.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xm/autonomy_ws/install/setup.bash'
+[4.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xm/autonomy_ws/install/local_setup.zsh'
+[4.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xm/autonomy_ws/install/setup.zsh'

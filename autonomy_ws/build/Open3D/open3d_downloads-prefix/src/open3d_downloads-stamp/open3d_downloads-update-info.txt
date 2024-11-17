@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=PYTHON_IN_PATH-NOTFOUND;/home/xm/autonomy_ws/Open3D/examples/test_data/download_test_data.py
+command (disconnected)=PYTHON_IN_PATH-NOTFOUND;/home/xm/autonomy_ws/Open3D/examples/test_data/download_test_data.py
+work_dir=/home/xm/autonomy_ws/build/Open3D/open3d_downloads-prefix/src/open3d_downloads

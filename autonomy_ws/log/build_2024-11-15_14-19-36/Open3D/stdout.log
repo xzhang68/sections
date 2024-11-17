@@ -1,0 +1,55 @@
+-- Setting build type to RelWithDebInfo as none was specified.
+-- CMAKE_BUILD_TYPE is set to RelWithDebInfo.
+-- OPEN3D_THIRD_PARTY_DOWNLOAD_DIR is not specified, will download directly.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Open3D 0.13.0+c3f9de224
+-- Using python from PATH: PYTHON_IN_PATH-NOTFOUND
+-- Performing Test FLAG_fstack_protector_strong
+-- Performing Test FLAG_fstack_protector_strong - Success
+-- Performing Test FLAG_Wformat
+-- Performing Test FLAG_Wformat - Success
+-- Performing Test FLAG_Wformat_security
+-- Performing Test FLAG_Wformat_security - Success
+-- Performing Test FLAG_Wl__z_noexecstack
+-- Performing Test FLAG_Wl__z_noexecstack - Success
+-- Performing Test FLAG_Wl__z_relro__z_now
+-- Performing Test FLAG_Wl__z_relro__z_now - Success
+-- Performing Test FLAG_pie
+-- Performing Test FLAG_pie - Success
+-- Using security hardening compiler flags: -fstack-protector-strong;-Wformat;-Wformat-security and
+linker flags: -Wl,-z,noexecstack;-Wl,-z,relro,-z,now;-pie
+-- Performing Test HAS_GLIBCXX_USE_CXX11_ABI
+-- Performing Test HAS_GLIBCXX_USE_CXX11_ABI - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Building library Assimp from source
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Building with OpenMP
+-- Building library 3rdparty_eigen3 from source
+-- Building library 3rdparty_flann from source
+-- Building library 3rdparty_nanoflann from source
+-- Building library 3rdparty_glew from source
+-- Building library 3rdparty_glfw3 from source
+-- Found Vulkan: /usr/lib/x86_64-linux-gnu/libvulkan.so
+-- Using X11 for window creation
+-- Found X11: /usr/include
+-- Building third-party library JPEG from source
+-- Looking for a ASM_NASM compiler
+-- Looking for a ASM_NASM compiler - NOTFOUND
+-- NASM assembler not found - libjpeg-turbo performance may suffer
+-- libturbojpeg: WITH_CRT_DLL=OFF
+-- Configuring incomplete, errors occurred!

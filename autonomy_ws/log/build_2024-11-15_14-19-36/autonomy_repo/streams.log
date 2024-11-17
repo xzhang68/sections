@@ -1,0 +1,68 @@
+[0.072s] Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[0.338s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.338s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.338s]   CMake.
+[0.338s] 
+[0.338s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.339s]   CMake that the project does not need compatibility with older versions.
+[0.339s] 
+[0.339s] [0m
+[0.548s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.606s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.616s] -- Found asl_tb3_lib: 0.0.0 (/home/xm/tb_ws/install/asl_tb3_lib/share/asl_tb3_lib/cmake)
+[1.632s] -- Found asl_tb3_msgs: 0.0.0 (/home/xm/tb_ws/install/asl_tb3_msgs/share/asl_tb3_msgs/cmake)
+[2.087s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.099s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.161s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.547s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.704s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.820s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.176s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.195s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.268s] [0mCMake Deprecation Warning at /usr/local/lib/cmake/Open3D/Open3DConfig.cmake:18 (cmake_policy):
+[4.268s]   The OLD behavior for policy CMP0072 will be removed from a future version
+[4.268s]   of CMake.
+[4.269s] 
+[4.269s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[4.269s]   policies are deprecated and that a policy should be set to OLD only under
+[4.269s]   specific short-term circumstances.  Projects should be ported to the NEW
+[4.269s]   behavior and not rely on setting a policy to OLD.
+[4.269s] Call Stack (most recent call first):
+[4.270s]   CMakeLists.txt:16 (find_package)
+[4.270s] 
+[4.270s] [0m
+[4.276s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.570s] -- Added test 'lint_cmake' to check CMake code style
+[4.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.578s] -- Added test 'xmllint' to check XML markup files
+[4.593s] -- Configuring done (4.2s)
+[4.659s] -- Generating done (0.1s)
+[4.661s] -- Build files have been written to: /home/xm/autonomy_ws/build/autonomy_repo
+[4.737s] Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[4.924s] Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo
+[4.952s] -- Install configuration: ""
+[4.952s] -- Execute custom install script
+[4.953s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/icp.launch.py
+[4.957s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[4.957s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/icp_node.py
+[4.958s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[4.964s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[4.965s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[4.965s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[4.965s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[4.965s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[4.965s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[4.966s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[4.966s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[4.966s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[4.966s] -- Symlinking: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv
+[4.985s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[4.985s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[4.996s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[4.997s] -- Up-to-date symlink: /home/xm/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.xml
+[4.997s] Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo

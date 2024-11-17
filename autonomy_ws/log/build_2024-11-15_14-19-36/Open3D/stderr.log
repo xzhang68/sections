@@ -1,0 +1,39 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:145 (cmake_policy):
+  The OLD behavior for policy CMP0072 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+[0m
+[0mCMake Deprecation Warning at 3rdparty/GLFW/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[31mCMake Error at /opt/cmake/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake:1323 (message):
+  No download info given for 'ext_turbojpeg' and its source directory:
+
+   /home/xm/autonomy_ws/Open3D/3rdparty/libjpeg-turbo/libjpeg-turbo
+
+  is not an existing non-empty directory.  Please specify one of:
+
+   * SOURCE_DIR with an existing non-empty directory
+   * DOWNLOAD_COMMAND
+   * URL
+   * GIT_REPOSITORY
+   * SVN_REPOSITORY
+   * HG_REPOSITORY
+   * CVS_REPOSITORY and CVS_MODULE
+Call Stack (most recent call first):
+  /opt/cmake/share/cmake-3.31/Modules/ExternalProject.cmake:3041 (_ep_add_download_command)
+  3rdparty/libjpeg-turbo/libjpeg-turbo.cmake:54 (ExternalProject_Add)
+  3rdparty/find_dependencies.cmake:496 (include)
+  CMakeLists.txt:613 (include)
+
+[0m
