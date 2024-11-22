@@ -131,7 +131,7 @@ class ICPNode(Node):
         ### Task 2.6 ###
         
         ### TODO: Task 2.7 ###
-        self.pose = self.pose @ np.linalg.inv(self.transformation)
+        self.pose = self.pose @ self.transformation
         ### Task 2.7 ###
         
         ### TODO: Task 2.8 ###
