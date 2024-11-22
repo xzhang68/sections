@@ -1,1 +1,0 @@
-/home/xm/autonomy_ws/src/autonomy_repo/scripts/icp_node.py

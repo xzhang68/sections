@@ -1,6 +1,0 @@
-Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake /home/xm/autonomy_ws/src/autonomy_repo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xm/autonomy_ws/install/autonomy_repo
-Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake /home/xm/autonomy_ws/src/autonomy_repo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xm/autonomy_ws/install/autonomy_repo
-Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
-Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --build /home/xm/autonomy_ws/build/autonomy_repo -- -j4 -l4
-Invoking command in '/home/xm/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo
-Invoked command in '/home/xm/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /opt/cmake/bin/cmake --install /home/xm/autonomy_ws/build/autonomy_repo

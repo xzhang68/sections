@@ -1,2 +1,0 @@
-Invoking command in '/home/xm/autonomy_ws/build/Open3D': /opt/cmake/bin/cmake /home/xm/autonomy_ws/Open3D -DCMAKE_INSTALL_PREFIX=/home/xm/autonomy_ws/install/Open3D
-Invoked command in '/home/xm/autonomy_ws/build/Open3D' returned '1': /opt/cmake/bin/cmake /home/xm/autonomy_ws/Open3D -DCMAKE_INSTALL_PREFIX=/home/xm/autonomy_ws/install/Open3D
